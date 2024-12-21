@@ -4,12 +4,14 @@ import Register from "./components/Register";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/user_management_app_frontend">
+      <div>
       <Routes>
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
         <Route path="/" element={<Login />} /> {/* Default route */}
       </Routes>
+      </div>
     </Router>
   );
 }
