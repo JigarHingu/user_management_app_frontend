@@ -1,0 +1,148 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(120deg, #bb924a, #66a6ff);
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.form-card {
+  width: 350px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.form-card h2 {
+  text-align: center;
+  color: #444;
+  margin-bottom: 20px;
+}
+
+.form-field {
+  margin: 15px 0;
+}
+
+.form-field label {
+  margin-left: 2px;
+  display: block;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+.form-field input {
+  width: calc(100% - 24px);
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.password-wrapper {
+  position: relative;
+}
+
+.password-toggle {
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: #007bff;
+}
+
+.button {
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(120deg, #007bff, #0056b3);
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.button:hover {
+  background: linear-gradient(120deg, #0056b3, #003f7f);
+}
+
+.button:disabled {
+  background-color: #aaa;
+}
+
+.register-link,
+.login-link {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.register-link p,
+.login-link p {
+  font-size: 14px;
+  color: #007bff;
+}
+
+.register-link p a,
+.login-link p a {
+  text-decoration: none;
+  color: #0056b3;
+  font-weight: bold;
+}
+
+.register-link p a:hover,
+.login-link p a:hover {
+  color: #004080;
+}
+
+.extra-links {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+}
+
+.extra-links a {
+  margin-bottom: 10px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.extra-links a:hover {
+  text-decoration: underline;
+}
+
+button:disabled {
+  background-color: #ddd;
+}
+
+/* Additional CSS for password toggle button */
+.password-wrapper {
+  position: relative;
+}
+
+.password-toggle {
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: #007bff;
+}
+
+.error-text {
+  color: red;
+  font-size: 12px;
+}
+.text-center{
+  text-align: center;
+}
+/* form input:invalid {
+  border: 2px solid red;
+} */
